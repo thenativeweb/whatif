@@ -18,7 +18,7 @@ To simplify this task you can run whatif within the directory that contains all 
 $ whatif <package>
 ```
 
-As a result `reqd` will give you a list of all packages where the given package is either referenced as a `dependency` or as a `devDependency` in the appropriate `package.json` file.
+As a result whatif will give you a list of all packages where the given package is either referenced as a `dependency` or as a `devDependency` in the appropriate `package.json` file.
 
 Please note that if you use tab completion, the package name may have a trailing slash accidentally. whatif will remove it automatically, so it's perfectly fine to run
 
