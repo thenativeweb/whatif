@@ -1,6 +1,6 @@
 {
   "name": "whatif",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "whatif discovers dependencies that need to be updated after updating a package.",
   "contributors": [
     {
