@@ -10,6 +10,7 @@ const packageJson = require('../package.json'),
 
 program.
   version(packageJson.version).
+  description(packageJson.description).
   usage('<package> [options]').
   parse(process.argv);
 
