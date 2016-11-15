@@ -12,7 +12,9 @@ $ npm install -g whatif
 
 From time to time, if you update a package, you also need to update any dependant packages, and any dependant packages of the dependant packages, and… it's turtles all the way down.
 
-To simplify this task you can run whatif within the directory that contains all of your repositories. Provide the name of an updated package as a parameter:
+To simplify this task you can run whatif within the directory that contains all of your repositories. Provide the name of an updated package as a parameter.
+
+If a directory with the given name exists, whatif extracts the module's name from the `package.json` file from this directory. If not, the given string is used literally:
 
 ```bash
 $ whatif <package>
